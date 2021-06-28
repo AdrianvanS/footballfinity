@@ -120,10 +120,27 @@ body {
     font-size: 15px;
 }
 
+.article-main h2 {
+    text-align: center;
+}
+
+.article-card {
+    margin: 10px;
+    font-size: 15px;
+}
+
 /*For mobile*/
 @media (max-width: 768px) {
     .index-main h2 {
         font-size: 15px;
+    }
+
+    .article-main h2 {
+        font-size: 15px;
+    }
+
+    .article-card {
+        font-size: 12px;
     }
 
     .brand-logo {

@@ -6,6 +6,11 @@
 .brand-logo {
     width: 100px;
     padding: 10px 0px 10px 20px;
+    display: flex;
+}
+
+.brand-logo .brand-title {
+    padding-left: 10px;
 }
 
 body {
@@ -115,23 +120,47 @@ body {
     font-size: 15px;
 }
 
-/*About page specific*/
-.about-main h2 {
+/*About specific code*/
+.about-main {
     margin: 20px;
 }
 
-.about-main p {
-    margin: 0px 20px 20px 20px;
-}
-
+/*For mobile*/
 @media (max-width: 768px) {
+    .about-main h2 {
+        font-size: 15px;
+    }
+
+    .about-main p {
+        font-size: 12px;
+    }
+
+    .index-main h2 {
+        font-size: 15px;
+    }
+
+    .article-main h2 {
+        font-size: 15px;
+    }
+
+    .article-card {
+        font-size: 12px;
+    }
+
     .brand-logo {
+        padding-left: 5px;
+    }
+
+    .brand-logo .brand-title {
+        padding-left: 0px;
+    }
+
+    .brand-logo img{
         display: none;
     }
 
     .toggle-button {
         display: flex;
-        margin-top: -10px;
     }
 
     .navbar-links {
