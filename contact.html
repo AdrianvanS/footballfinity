@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footballfinity</title>
+    <link rel="stylesheet" href="styles/ffstyles.css"/>
+    <link rel="stylesheet" href="styles/contactstyle.css"/>
+    <script src="scripts/articleScript.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-logo"><img src="images/ffshield.svg" alt="">
+            <div class="brand-title">football<a style="color: #4edecb;">finity</a></div>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rumours.html">Rumours</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content here -->
+    <main class="contact-main">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqlzdgw" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Full Name</label>
+                  <input class="form-input" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                  <label for="email-address">Email Address</label>
+                  <input class="form-input" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                  <label for="message">Message</label>
+                  <textarea class="form-input" rows="5" name="message" id="message" placeholder="Message text..." required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer-grid">
+        <div id="footitem-1">
+            <img src="images/ffshield.svg" alt="ff shield logo" style="height: 50px;">
+        </div>
+        <div id="footitem-2">
+            <p>&copy; 2021 footballfinity<br><a href="about.html" alt="About page">About</a><br><a href="contact.html" alt="Contact page">Contact</a></p>
+        </div>
+        <div id="footitem-3">
+            <img src="images/avlogo.svg" alt="avs logo" style="height: 50px;">
+        </div>
+        <div id="footitem-4">
+            <p>Created by Adrian van Schalkwyk<br>Contact Me</p>
+        </div>
+    </footer>
+
+</body>
+</html>

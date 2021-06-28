@@ -165,9 +165,27 @@ body {
     display: inline;
 }
 
-/*For mobile*/
-@media (max-width: 768px) {
+/*For mobiles*/
+@media (max-width: 440px) {
+    .news-img img {
+        display: none;
+    }
 
+    .news-text {
+        padding: 20px;
+    }
+}
+
+/*For tablets*/
+@media (max-width: 768px) {
+    #footitem-2 p {
+        font-size: 12px;
+    }
+
+    #footitem-4 p {
+        font-size: 12px;
+    }
+    
     .article-card {
         font-size: 12px;
     }
