@@ -1,0 +1,32 @@
+.rum-h1 {
+    text-align: center;
+}
+
+.rum-h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.rumour-card {
+    margin: 20px;
+}
+
+.rum-href {
+    text-decoration: none;
+    color: black;
+}
+
+/*For mobile*/
+@media (max-width: 768px) {
+    .rum-h1 {
+        font-size: 15px;
+    }
+
+    .rum-h2 {
+        font-size: 12px;
+    }
+
+    .rumour-card p {
+        font-size: 12px;
+    }
+}
