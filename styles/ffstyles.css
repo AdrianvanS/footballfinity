@@ -131,6 +131,14 @@ body {
 
 /*For mobile*/
 @media (max-width: 768px) {
+    #footitem-2 p {
+        font-size: 12px;
+    }
+
+    #footitem-4 p {
+        font-size: 12px;
+    }
+
     .index-main h2 {
         font-size: 15px;
     }
