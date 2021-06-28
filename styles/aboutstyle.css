@@ -1,6 +1,7 @@
 /*About specific code*/
 .about-main {
     margin: 20px;
+    min-height: 75vh;
 }
 
 /*For mobile*/

@@ -5,6 +5,7 @@
 .article-card {
     margin: 20px;
     font-size: 15px;
+    min-height: 75vh;
 }
 
 /*For mobile*/

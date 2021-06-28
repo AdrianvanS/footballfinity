@@ -16,6 +16,10 @@
     color: black;
 }
 
+main {
+    min-height: 75vh;
+}
+
 /*For mobile*/
 @media (max-width: 768px) {
     .rum-h1 {
