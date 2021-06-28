@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footballfinity</title>
     <link rel="stylesheet" href="styles/ffstyles.css"/>
+    <link rel="stylesheet" href="styles/avscontactstyle.css"/>
     <script src="scripts/articleScript.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -31,6 +32,27 @@
     </nav>
 
     <!-- Main content here -->
+    <main class="main-avs">
+        <div class="avs-container">
+            <div>
+                <h2>Send a message to Adrian.</h2>
+            </div>
+        </div>
+        <div class="avs-form">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkwlqgo" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Full Name</label>
+                  <input class="form-input" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                  <label for="email-address">Email Address</label>
+                  <input class="form-input" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                  <label for="message">Message</label>
+                  <textarea class="form-input" rows="5" name="message" id="message" placeholder="Message text..." required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
 
     <footer class="footer-grid">
         <div id="footitem-1">

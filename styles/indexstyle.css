@@ -120,6 +120,16 @@ body {
     font-size: 15px;
 }
 
+#footitem-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+#footitem-4 a:hover{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
 /*Index specific content*/
 .index-main h2 {
     text-align: center;
