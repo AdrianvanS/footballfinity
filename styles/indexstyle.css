@@ -132,7 +132,13 @@ body {
 
 /*Index specific content*/
 .index-main h2 {
-    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color: #4edecb;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .index-main article {
@@ -150,7 +156,6 @@ body {
 }
 
 .news-text {
-    margin-top: 5px;
     margin-bottom: 5px;
     font-size: 15px;
     margin-right: 10px;
@@ -175,6 +180,19 @@ body {
     display: inline;
 }
 
+.read-more-btn {
+    color: #0984e3;
+    cursor: pointer;
+}
+
+.read-more-text {
+    display: none;
+}
+
+.read-more-text--show {
+    display: inline;
+}
+
 /*For mobiles*/
 @media (max-width: 440px) {
     .news-img img {
@@ -182,7 +200,7 @@ body {
     }
 
     .news-text {
-        padding: 20px;
+        padding: 0px 20px 20px 20px;
     }
 }
 
@@ -213,7 +231,6 @@ body {
     }
 
     .news-text {
-        margin-top: 5px;
         margin-bottom: 5px;
         font-size: 12px;
     }
