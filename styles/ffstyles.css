@@ -65,7 +65,12 @@ body {
 }
 
 .toggle-button:hover {
-    background-color: #7c76b5;
+    transform: rotate(360deg);
+    transition: ease 1.5s;
+}
+
+.toggle-button:hover > .bar {
+    background-color: #4edecb;
 }
 
 .toggle-button .bar {
