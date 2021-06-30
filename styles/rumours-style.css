@@ -16,6 +16,10 @@
     color: black;
 }
 
+.rum-href:visited {
+    color: #2819b3;
+}
+
 main {
     min-height: 75vh;
 }
