@@ -175,14 +175,6 @@ body {
     margin-top: 5px;
 }
 
-.news-text2 h3 {
-    margin-top: 5px;
-}
-
-.news-text3 h3 {
-    margin-top: 5px;
-}
-
 .article-card {
     font-size: 15px;
     margin: 10px;
@@ -224,18 +216,6 @@ body {
     .news-text {
         padding: 0px 20px 20px 20px;
     }
-
-    .news-text2 {
-        padding: 0px 20px 20px 20px;
-    }
-
-    .news-text3 {
-        padding: 0px 20px 20px 20px;
-    }
-
-    .news-text4 {
-        padding: 0px 20px 20px 20px;
-    }
 }
 
 /*For tablets*/
@@ -265,21 +245,6 @@ body {
     }
 
     .news-text {
-        margin-bottom: 5px;
-        font-size: 12px;
-    }
-
-    .news-text2 {
-        margin-bottom: 5px;
-        font-size: 12px;
-    }
-
-    .news-text3 {
-        margin-bottom: 5px;
-        font-size: 12px;
-    }
-
-    .news-text4 {
         margin-bottom: 5px;
         font-size: 12px;
     }
